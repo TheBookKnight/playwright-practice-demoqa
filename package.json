@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Use this repo to practice with Playwright.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheBookKnight/playwright-practice-demoqa.git"
