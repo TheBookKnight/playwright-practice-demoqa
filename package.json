@@ -1,0 +1,22 @@
+{
+  "name": "playwright-practice-demoqa",
+  "version": "1.0.0",
+  "description": "Use this repo to practice with Playwright.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBookKnight/playwright-practice-demoqa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBookKnight/playwright-practice-demoqa/issues"
+  },
+  "homepage": "https://github.com/TheBookKnight/playwright-practice-demoqa#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14"
+  }
+}
