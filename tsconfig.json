@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "tests",
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "outDir": "../tests-out",
+  },
+  "files": [
+    "playwright.config.ts"
+  ],
+  "include": [
+    "tests/**/*.ts",
+  ]
+}

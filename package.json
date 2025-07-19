@@ -4,7 +4,8 @@
   "description": "Use this repo to practice with Playwright.",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "pretest": "tsc --incremental -p tsconfig.json",
+    "test": "npx playwright test --tsconfig=tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/TheBookKnight/playwright-practice-demoqa#readme",
   "devDependencies": {
     "@playwright/test": "^1.54.1",
-    "@types/node": "^24.0.14"
+    "@types/node": "^24.0.14",
+    "unique-names-generator": "^4.7.1"
   }
 }
