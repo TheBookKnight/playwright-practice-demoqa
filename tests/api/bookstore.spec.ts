@@ -77,8 +77,8 @@ test.describe('BookStore APIs', () => {
             ({ token } = tokenObject);
 
             // FOR TESTING: Log the created user details
-            console.log(`Created user: ${username}, Password: ${password}`);
-            console.log(`User ID: ${userId}, Basic Auth: ${basicAuth}, Token: ${token}`);
+            // console.log(`Created user: ${username}, Password: ${password}`);
+            // console.log(`User ID: ${userId}, Basic Auth: ${basicAuth}, Token: ${token}`);
         });
 
         test('add a book to the user\'s collection', async ({ request }) => {
