@@ -52,3 +52,10 @@ Setup a `support` directory and a *utils.ts* file
 We'll set it up with a method that creates a random username and password. We'll use the NPM Package [unique names generator](https://www.npmjs.com/package/unique-names-generator).
 
 Use the custom method in the Account api spec so you can consistently create random users.
+
+Create another custom method to generate tokens for authentication when performing updates.
+
+### Step 3: Setup the API Test Suite
+
+#### BookStore API Tests
+
