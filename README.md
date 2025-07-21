@@ -57,5 +57,13 @@ Create another custom method to generate tokens for authentication when performi
 
 ### Step 3: Setup the API Test Suite
 
-#### BookStore API Tests
+Setup API tests for Bookstore and Account endpoints (see [Swagger API docs here](https://demoqa.com/swagger/#/)). Since we don't have access to the database for cleanup, we can use the existing APIs instead. Acknowledging the risk that if the APIs don't work, it won't cleanup properly.
+
+### Step 4: Setup UI Test Suite
+
+We'll need to create a separate project for end-to-end (e2e) tests in the **playwright.config.ts**
+
+The base URL will be `https://demoqa.com/`
+
+You can create an npm script to see how it runs on browser, `npm run test:ui`
 

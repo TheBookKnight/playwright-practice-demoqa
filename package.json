@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "pretest": "tsc --incremental -p tsconfig.json",
-    "test": "npx playwright test --tsconfig=tsconfig.json"
+    "test": "npx playwright test --tsconfig=tsconfig.json",
+    "test:api": "npx playwright test tests/api --tsconfig=tsconfig.json",
+    "test:e2e": "npx playwright test tests/e2e --tsconfig=tsconfig.json",
+    "test:ui": "npx playwright test --ui"
   },
   "repository": {
     "type": "git",

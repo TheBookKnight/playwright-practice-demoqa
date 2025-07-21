@@ -42,6 +42,13 @@ export default defineConfig({
         baseURL: 'https://demoqa.com/swagger',
       }
     },
+    {
+      name: 'UI Test Suite',
+      testDir: './tests/e2e',
+      use: {
+        baseURL: 'https://demoqa.com',
+      }
+    },
   ],
 });
 
